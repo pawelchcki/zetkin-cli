@@ -1,0 +1,1798 @@
+{
+  "operations": [
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id",
+      "path": "/orgs/{org_id}",
+      "resource": "OrgItem",
+      "section": "organizations"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_actions_by_action_id",
+      "path": "/orgs/{org_id}/actions/{action_id}",
+      "resource": "ActionItem",
+      "section": "campaign"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_actions_by_action_id_participants_by_person_id",
+      "path": "/orgs/{org_id}/actions/{action_id}/participants/{person_id}",
+      "resource": "ActionParticipantItem",
+      "section": "campaign"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_actions_by_action_id_responses_by_person_id",
+      "path": "/orgs/{org_id}/actions/{action_id}/responses/{person_id}",
+      "resource": "ActionResponseItem",
+      "section": "campaign"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_activities_by_activity_id",
+      "path": "/orgs/{org_id}/activities/{activity_id}",
+      "resource": "ActivityItem",
+      "section": "campaign"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_addresses_by_addr_id",
+      "path": "/orgs/{org_id}/addresses/{addr_id}",
+      "resource": "AddressItem",
+      "section": "canvass"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_addresses_by_addr_id_tags_by_tag_id",
+      "path": "/orgs/{org_id}/addresses/{addr_id}/tags/{tag_id}",
+      "resource": "AddressLocationTagItem",
+      "section": "canvass"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_call_assignments_by_assignment_id",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}",
+      "resource": "CallAssignmentItem",
+      "section": "call"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_call_assignments_by_assignment_id_callers_by_caller_id",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/callers/{caller_id}",
+      "resource": "CallAssignmentCallerItem",
+      "section": "call"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_call_assignments_by_assignment_id_callers_by_caller_id_excluded_tags_by_tag_id",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/callers/{caller_id}/excluded_tags/{tag_id}",
+      "resource": "CallAssignmentCallerItemExclTagItem",
+      "section": "call"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_call_assignments_by_assignment_id_callers_by_caller_id_prioritized_tags_by_tag_id",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/callers/{caller_id}/prioritized_tags/{tag_id}",
+      "resource": "CallAssignmentCallerItemPrioTagItem",
+      "section": "call"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_calls_by_call_id",
+      "path": "/orgs/{org_id}/calls/{call_id}",
+      "resource": "CallItem",
+      "section": "call"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_campaigns_by_campaign_id",
+      "path": "/orgs/{org_id}/campaigns/{campaign_id}",
+      "resource": "CampaignItem",
+      "section": "campaign"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_canvass_assignments_by_assignment_id",
+      "path": "/orgs/{org_id}/canvass_assignments/{assignment_id}",
+      "resource": "CanvassAssignmentItem",
+      "section": "canvass"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_canvass_assignments_by_assignment_id_routes_by_route_id",
+      "path": "/orgs/{org_id}/canvass_assignments/{assignment_id}/routes/{route_id}",
+      "resource": "CanvassAssignmentCanvassRouteItem",
+      "section": "canvass"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_canvass_routes_by_route_id",
+      "path": "/orgs/{org_id}/canvass_routes/{route_id}",
+      "resource": "CanvassRouteItem",
+      "section": "canvass"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_canvass_routes_by_route_id_addresses_by_addr_id",
+      "path": "/orgs/{org_id}/canvass_routes/{route_id}/addresses/{addr_id}",
+      "resource": "CanvassRouteAddressItem",
+      "section": "canvass"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_group_categories_by_cat_id",
+      "path": "/orgs/{org_id}/group_categories/{cat_id}",
+      "resource": "PersonGroupCategoryItem",
+      "section": "people"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_groups_by_group_id",
+      "path": "/orgs/{org_id}/groups/{group_id}",
+      "resource": "PersonGroupItem",
+      "section": "people"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_groups_by_group_id_members_by_person_id",
+      "path": "/orgs/{org_id}/groups/{group_id}/members/{person_id}",
+      "resource": "PersonGroupMemberItem",
+      "section": "people"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_households_by_household_id",
+      "path": "/orgs/{org_id}/households/{household_id}",
+      "resource": "HouseholdItem",
+      "section": "canvass"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_invites_by_invite_id",
+      "path": "/orgs/{org_id}/invites/{invite_id}",
+      "resource": "InviteItem",
+      "section": "organizations"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_join_forms_by_form_id",
+      "path": "/orgs/{org_id}/join_forms/{form_id}",
+      "resource": "JoinFormItem",
+      "section": "organizations"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_join_submissions_by_sub_id",
+      "path": "/orgs/{org_id}/join_submissions/{sub_id}",
+      "resource": "JoinSubmissionItem",
+      "section": "organizations"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_locations_by_loc_id",
+      "path": "/orgs/{org_id}/locations/{loc_id}",
+      "resource": "LocationItem",
+      "section": "maps"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_locations_by_loc_id_tags_by_tag_id",
+      "path": "/orgs/{org_id}/locations/{loc_id}/tags/{tag_id}",
+      "resource": "LocationLocationTagItem",
+      "section": "maps"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_locations_tags_by_tag_id",
+      "path": "/orgs/{org_id}/locations/tags/{tag_id}",
+      "resource": "LocationTagItem",
+      "section": "maps"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_officials_by_person_id",
+      "path": "/orgs/{org_id}/officials/{person_id}",
+      "resource": "OfficialItem",
+      "section": "organizations"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_people_by_person_id",
+      "path": "/orgs/{org_id}/people/{person_id}",
+      "resource": "PersonItem",
+      "section": "people"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_people_by_person_id_fields_by_field_id",
+      "path": "/orgs/{org_id}/people/{person_id}/fields/{field_id}",
+      "resource": "PersonFieldValueItem",
+      "section": "people"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_people_by_person_id_notes_by_note_id",
+      "path": "/orgs/{org_id}/people/{person_id}/notes/{note_id}",
+      "resource": "PersonNoteItem",
+      "section": "people"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_people_by_person_id_tags_by_tag_id",
+      "path": "/orgs/{org_id}/people/{person_id}/tags/{tag_id}",
+      "resource": "PersonPersonTagItem",
+      "section": "people"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_people_fields_by_field_id",
+      "path": "/orgs/{org_id}/people/fields/{field_id}",
+      "resource": "PersonFieldItem",
+      "section": "people"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_people_queries_by_query_id",
+      "path": "/orgs/{org_id}/people/queries/{query_id}",
+      "resource": "PersonQueryItem",
+      "section": "search"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_people_tags_by_tag_id",
+      "path": "/orgs/{org_id}/people/tags/{tag_id}",
+      "resource": "PersonTagItem",
+      "section": "people"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_people_views_by_view_id",
+      "path": "/orgs/{org_id}/people/views/{view_id}",
+      "resource": "PersonViewItem",
+      "section": "views"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_people_views_by_view_id_columns_by_col_id",
+      "path": "/orgs/{org_id}/people/views/{view_id}/columns/{col_id}",
+      "resource": "PersonViewColumnItem",
+      "section": "views"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_people_views_by_view_id_rows_by_person_id",
+      "path": "/orgs/{org_id}/people/views/{view_id}/rows/{person_id}",
+      "resource": "PersonViewRowItem",
+      "section": "views"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_surveys_by_survey_id",
+      "path": "/orgs/{org_id}/surveys/{survey_id}",
+      "resource": "SurveyItem",
+      "section": "survey"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_surveys_by_survey_id_elements_by_elem_id",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements/{elem_id}",
+      "resource": "SurveySurveyElementItem",
+      "section": "survey"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_orgs_by_org_id_surveys_by_survey_id_elements_by_elem_id_options_by_opt_id",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements/{elem_id}/options/{opt_id}",
+      "resource": "SurveySurveyElementOptionItem",
+      "section": "survey"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_session",
+      "path": "/session",
+      "resource": "SessionItem",
+      "section": "users"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_users_by_user_id",
+      "path": "/users/{user_id}",
+      "resource": "UserItem",
+      "section": "users"
+    },
+    {
+      "method": "DELETE",
+      "operation_id": "delete_users_by_user_id_memberships_by_org_id",
+      "path": "/users/{user_id}/memberships/{org_id}",
+      "resource": "UserMembershipItem",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs",
+      "path": "/orgs",
+      "resource": "OrgCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id",
+      "path": "/orgs/{org_id}",
+      "resource": "OrgItem",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_actions",
+      "path": "/orgs/{org_id}/actions",
+      "resource": "ActionCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_actions_by_action_id",
+      "path": "/orgs/{org_id}/actions/{action_id}",
+      "resource": "ActionItem",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_actions_by_action_id_participants",
+      "path": "/orgs/{org_id}/actions/{action_id}/participants",
+      "resource": "ActionParticipantCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_actions_by_action_id_participants_by_person_id",
+      "path": "/orgs/{org_id}/actions/{action_id}/participants/{person_id}",
+      "resource": "ActionParticipantItem",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_actions_by_action_id_reminders",
+      "path": "/orgs/{org_id}/actions/{action_id}/reminders",
+      "resource": "ActionReminderCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_actions_by_action_id_responses",
+      "path": "/orgs/{org_id}/actions/{action_id}/responses",
+      "resource": "ActionResponseCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_actions_by_action_id_responses_by_person_id",
+      "path": "/orgs/{org_id}/actions/{action_id}/responses/{person_id}",
+      "resource": "ActionResponseItem",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_activities",
+      "path": "/orgs/{org_id}/activities",
+      "resource": "ActivityCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_activities_by_activity_id",
+      "path": "/orgs/{org_id}/activities/{activity_id}",
+      "resource": "ActivityItem",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_addresses",
+      "path": "/orgs/{org_id}/addresses",
+      "resource": "AddressCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_addresses_by_addr_id",
+      "path": "/orgs/{org_id}/addresses/{addr_id}",
+      "resource": "AddressItem",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_addresses_by_addr_id_households",
+      "path": "/orgs/{org_id}/addresses/{addr_id}/households",
+      "resource": "AddressHouseholdCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_addresses_by_addr_id_tags",
+      "path": "/orgs/{org_id}/addresses/{addr_id}/tags",
+      "resource": "AddressLocationTagCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_assigned_routes",
+      "path": "/orgs/{org_id}/assigned_routes",
+      "resource": "AssignedRouteCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_assigned_routes_by_route_id",
+      "path": "/orgs/{org_id}/assigned_routes/{route_id}",
+      "resource": "AssignedRouteItem",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_assigned_routes_by_route_id_household_visits",
+      "path": "/orgs/{org_id}/assigned_routes/{route_id}/household_visits",
+      "resource": "AssignedRouteHouseholdVisitCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_assigned_routes_by_route_id_stats",
+      "path": "/orgs/{org_id}/assigned_routes/{route_id}/stats",
+      "resource": "AssignedRouteStatsItem",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_avatar",
+      "path": "/orgs/{org_id}/avatar",
+      "resource": "OrganizationAvatar",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_call_assignments",
+      "path": "/orgs/{org_id}/call_assignments",
+      "resource": "CallAssignmentCollection",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_call_assignments_by_assignment_id",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}",
+      "resource": "CallAssignmentItem",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_call_assignments_by_assignment_id_callers",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/callers",
+      "resource": "CallAssignmentCallerCollection",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_call_assignments_by_assignment_id_callers_by_caller_id",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/callers/{caller_id}",
+      "resource": "CallAssignmentCallerItem",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_call_assignments_by_assignment_id_callers_by_caller_id_excluded_tags",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/callers/{caller_id}/excluded_tags",
+      "resource": "CallAssignmentCallerItemExclTagCollection",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_call_assignments_by_assignment_id_callers_by_caller_id_prioritized_tags",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/callers/{caller_id}/prioritized_tags",
+      "resource": "CallAssignmentCallerItemPrioTagCollection",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_call_assignments_by_assignment_id_calls",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/calls",
+      "resource": "CallAssignmentCallCollection",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_call_assignments_by_assignment_id_queues",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/queues",
+      "resource": "CallAssignmentQueueCollection",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_call_assignments_by_assignment_id_queues_by_queue_id",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/queues/{queue_id}",
+      "resource": "CallAssignmentQueueItem",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_call_assignments_by_assignment_id_stats",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/stats",
+      "resource": "CallAssignmentStatsItem",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_call_assignments_by_assignment_id_targets",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/targets",
+      "resource": "CallAssignmentTargetCollection",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_calls",
+      "path": "/orgs/{org_id}/calls",
+      "resource": "CallCollection",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_calls_by_call_id",
+      "path": "/orgs/{org_id}/calls/{call_id}",
+      "resource": "CallItem",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_campaigns",
+      "path": "/orgs/{org_id}/campaigns",
+      "resource": "CampaignCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_campaigns_by_campaign_id",
+      "path": "/orgs/{org_id}/campaigns/{campaign_id}",
+      "resource": "CampaignItem",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_campaigns_by_campaign_id_actions",
+      "path": "/orgs/{org_id}/campaigns/{campaign_id}/actions",
+      "resource": "CampaignActionCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_campaigns_by_campaign_id_activities",
+      "path": "/orgs/{org_id}/campaigns/{campaign_id}/activities",
+      "resource": "CampaignActivityCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_campaigns_by_campaign_id_locations",
+      "path": "/orgs/{org_id}/campaigns/{campaign_id}/locations",
+      "resource": "CampaignLocationCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_campaigns_by_campaign_id_stats_participation",
+      "path": "/orgs/{org_id}/campaigns/{campaign_id}/stats/participation",
+      "resource": "CampaignItemStatsParticipation",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_campaigns_by_campaign_id_stats_participation_by_hour",
+      "path": "/orgs/{org_id}/campaigns/{campaign_id}/stats/participation_by_hour",
+      "resource": "CampaignItemStatsParticipationByHour",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_campaigns_stats_participation",
+      "path": "/orgs/{org_id}/campaigns/stats/participation",
+      "resource": "CampaignCollectionStatsParticipation",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_campaigns_stats_participation_by_hour",
+      "path": "/orgs/{org_id}/campaigns/stats/participation_by_hour",
+      "resource": "CampaignCollectionStatsParticipationByHour",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_canvass_assignments",
+      "path": "/orgs/{org_id}/canvass_assignments",
+      "resource": "CanvassAssignmentCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_canvass_assignments_by_assignment_id",
+      "path": "/orgs/{org_id}/canvass_assignments/{assignment_id}",
+      "resource": "CanvassAssignmentItem",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_canvass_assignments_by_assignment_id_routes",
+      "path": "/orgs/{org_id}/canvass_assignments/{assignment_id}/routes",
+      "resource": "CanvassAssignmentCanvassRouteCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_canvass_routes",
+      "path": "/orgs/{org_id}/canvass_routes",
+      "resource": "CanvassRouteCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_canvass_routes_by_route_id",
+      "path": "/orgs/{org_id}/canvass_routes/{route_id}",
+      "resource": "CanvassRouteItem",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_canvass_routes_by_route_id_addresses",
+      "path": "/orgs/{org_id}/canvass_routes/{route_id}/addresses",
+      "resource": "CanvassRouteAddressCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_group_categories",
+      "path": "/orgs/{org_id}/group_categories",
+      "resource": "PersonGroupCategoryCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_group_categories_by_cat_id",
+      "path": "/orgs/{org_id}/group_categories/{cat_id}",
+      "resource": "PersonGroupCategoryItem",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_groups",
+      "path": "/orgs/{org_id}/groups",
+      "resource": "PersonGroupCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_groups_by_group_id",
+      "path": "/orgs/{org_id}/groups/{group_id}",
+      "resource": "PersonGroupItem",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_groups_by_group_id_managers",
+      "path": "/orgs/{org_id}/groups/{group_id}/managers",
+      "resource": "PersonGroupManagerCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_groups_by_group_id_members",
+      "path": "/orgs/{org_id}/groups/{group_id}/members",
+      "resource": "PersonGroupMemberCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_household_visits",
+      "path": "/orgs/{org_id}/household_visits",
+      "resource": "HouseholdVisitCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_household_visits_by_visit_id",
+      "path": "/orgs/{org_id}/household_visits/{visit_id}",
+      "resource": "HouseholdVisitItem",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_households",
+      "path": "/orgs/{org_id}/households",
+      "resource": "HouseholdCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_households_by_household_id",
+      "path": "/orgs/{org_id}/households/{household_id}",
+      "resource": "HouseholdItem",
+      "section": "canvass"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_imports",
+      "path": "/orgs/{org_id}/imports",
+      "resource": "PersonImportCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_invites",
+      "path": "/orgs/{org_id}/invites",
+      "resource": "InviteCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_invites_by_invite_id",
+      "path": "/orgs/{org_id}/invites/{invite_id}",
+      "resource": "InviteItem",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_join_forms",
+      "path": "/orgs/{org_id}/join_forms",
+      "resource": "JoinFormCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_join_forms_by_form_id",
+      "path": "/orgs/{org_id}/join_forms/{form_id}",
+      "resource": "JoinFormItem",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_join_forms_by_form_id_submissions",
+      "path": "/orgs/{org_id}/join_forms/{form_id}/submissions",
+      "resource": "JoinFormSubmissionCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_join_requests",
+      "path": "/orgs/{org_id}/join_requests",
+      "resource": "JoinRequestCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_join_submissions",
+      "path": "/orgs/{org_id}/join_submissions",
+      "resource": "JoinSubmissionCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_join_submissions_by_sub_id",
+      "path": "/orgs/{org_id}/join_submissions/{sub_id}",
+      "resource": "JoinSubmissionItem",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_locations",
+      "path": "/orgs/{org_id}/locations",
+      "resource": "LocationCollection",
+      "section": "maps"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_locations_by_loc_id",
+      "path": "/orgs/{org_id}/locations/{loc_id}",
+      "resource": "LocationItem",
+      "section": "maps"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_locations_by_loc_id_actions",
+      "path": "/orgs/{org_id}/locations/{loc_id}/actions",
+      "resource": "LocationActionCollection",
+      "section": "maps"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_locations_by_loc_id_activities",
+      "path": "/orgs/{org_id}/locations/{loc_id}/activities",
+      "resource": "LocationActivityCollection",
+      "section": "maps"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_locations_by_loc_id_tags",
+      "path": "/orgs/{org_id}/locations/{loc_id}/tags",
+      "resource": "LocationLocationTagCollection",
+      "section": "maps"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_locations_tags",
+      "path": "/orgs/{org_id}/locations/tags",
+      "resource": "LocationTagCollection",
+      "section": "maps"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_locations_tags_by_tag_id",
+      "path": "/orgs/{org_id}/locations/tags/{tag_id}",
+      "resource": "LocationTagItem",
+      "section": "maps"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_locations_tags_by_tag_id_locations",
+      "path": "/orgs/{org_id}/locations/tags/{tag_id}/locations",
+      "resource": "LocationTagLocationCollection",
+      "section": "maps"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_officials",
+      "path": "/orgs/{org_id}/officials",
+      "resource": "OfficialCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_officials_by_person_id",
+      "path": "/orgs/{org_id}/officials/{person_id}",
+      "resource": "OfficialItem",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people",
+      "path": "/orgs/{org_id}/people",
+      "resource": "PersonCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_by_person_id",
+      "path": "/orgs/{org_id}/people/{person_id}",
+      "resource": "PersonItem",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_by_person_id_avatar",
+      "path": "/orgs/{org_id}/people/{person_id}/avatar",
+      "resource": "PersonAvatar",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_by_person_id_fields",
+      "path": "/orgs/{org_id}/people/{person_id}/fields",
+      "resource": "PersonFieldValueCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_by_person_id_fields_by_field_id",
+      "path": "/orgs/{org_id}/people/{person_id}/fields/{field_id}",
+      "resource": "PersonFieldValueItem",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_by_person_id_notes",
+      "path": "/orgs/{org_id}/people/{person_id}/notes",
+      "resource": "PersonNoteCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_by_person_id_tags",
+      "path": "/orgs/{org_id}/people/{person_id}/tags",
+      "resource": "PersonPersonTagCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_by_person_id_timeline",
+      "path": "/orgs/{org_id}/people/{person_id}/timeline",
+      "resource": "PersonTimelineItem",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_fields",
+      "path": "/orgs/{org_id}/people/fields",
+      "resource": "PersonFieldCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_fields_by_field_id",
+      "path": "/orgs/{org_id}/people/fields/{field_id}",
+      "resource": "PersonFieldItem",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_queries",
+      "path": "/orgs/{org_id}/people/queries",
+      "resource": "PersonQueryCollection",
+      "section": "search"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_queries_by_query_id",
+      "path": "/orgs/{org_id}/people/queries/{query_id}",
+      "resource": "PersonQueryItem",
+      "section": "search"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_queries_by_query_id_matches",
+      "path": "/orgs/{org_id}/people/queries/{query_id}/matches",
+      "resource": "PersonQueryMatchCollection",
+      "section": "search"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_queries_by_query_id_matches_by_person_id",
+      "path": "/orgs/{org_id}/people/queries/{query_id}/matches/{person_id}",
+      "resource": "PersonQueryMatchItem",
+      "section": "search"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_tags",
+      "path": "/orgs/{org_id}/people/tags",
+      "resource": "PersonTagCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_tags_by_tag_id",
+      "path": "/orgs/{org_id}/people/tags/{tag_id}",
+      "resource": "PersonTagItem",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_tags_by_tag_id_people",
+      "path": "/orgs/{org_id}/people/tags/{tag_id}/people",
+      "resource": "PersonTagPersonCollection",
+      "section": "people"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_views",
+      "path": "/orgs/{org_id}/people/views",
+      "resource": "PersonViewCollection",
+      "section": "views"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_views_by_view_id",
+      "path": "/orgs/{org_id}/people/views/{view_id}",
+      "resource": "PersonViewItem",
+      "section": "views"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_views_by_view_id_columns",
+      "path": "/orgs/{org_id}/people/views/{view_id}/columns",
+      "resource": "PersonViewColumnCollection",
+      "section": "views"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_views_by_view_id_columns_by_col_id",
+      "path": "/orgs/{org_id}/people/views/{view_id}/columns/{col_id}",
+      "resource": "PersonViewColumnItem",
+      "section": "views"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_views_by_view_id_rows",
+      "path": "/orgs/{org_id}/people/views/{view_id}/rows",
+      "resource": "PersonViewRowCollection",
+      "section": "views"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_people_views_by_view_id_rows_by_person_id",
+      "path": "/orgs/{org_id}/people/views/{view_id}/rows/{person_id}",
+      "resource": "PersonViewRowItem",
+      "section": "views"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_survey_submissions",
+      "path": "/orgs/{org_id}/survey_submissions",
+      "resource": "SurveySubmissionCollection",
+      "section": "survey"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_survey_submissions_by_sub_id",
+      "path": "/orgs/{org_id}/survey_submissions/{sub_id}",
+      "resource": "SurveySubmissionItem",
+      "section": "survey"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_surveys",
+      "path": "/orgs/{org_id}/surveys",
+      "resource": "SurveyCollection",
+      "section": "survey"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_surveys_by_survey_id",
+      "path": "/orgs/{org_id}/surveys/{survey_id}",
+      "resource": "SurveyItem",
+      "section": "survey"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_surveys_by_survey_id_element_order",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/element_order",
+      "resource": "SurveyElementOrderItem",
+      "section": "survey"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_surveys_by_survey_id_elements",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements",
+      "resource": "SurveySurveyElementCollection",
+      "section": "survey"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_surveys_by_survey_id_elements_by_elem_id",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements/{elem_id}",
+      "resource": "SurveySurveyElementItem",
+      "section": "survey"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_surveys_by_survey_id_elements_by_elem_id_option_order",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements/{elem_id}/option_order",
+      "resource": "SurveySurveyElementOptionOrderItem",
+      "section": "survey"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_surveys_by_survey_id_elements_by_elem_id_options",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements/{elem_id}/options",
+      "resource": "SurveySurveyElementOptionCollection",
+      "section": "survey"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_surveys_by_survey_id_elements_by_elem_id_options_by_opt_id",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements/{elem_id}/options/{opt_id}",
+      "resource": "SurveySurveyElementOptionItem",
+      "section": "survey"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_orgs_by_org_id_surveys_by_survey_id_submissions",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/submissions",
+      "resource": "SurveySurveySubmissionCollection",
+      "section": "survey"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_session",
+      "path": "/session",
+      "resource": "SessionItem",
+      "section": "users"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users",
+      "path": "/users",
+      "resource": "UserCollection",
+      "section": "users"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users_by_user_id",
+      "path": "/users/{user_id}",
+      "resource": "UserItem",
+      "section": "users"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users_by_user_id_action_responses",
+      "path": "/users/{user_id}/action_responses",
+      "resource": "UserActionResponseCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users_by_user_id_actions",
+      "path": "/users/{user_id}/actions",
+      "resource": "UserActionCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users_by_user_id_avatar",
+      "path": "/users/{user_id}/avatar",
+      "resource": "UserAvatar",
+      "section": "users"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users_by_user_id_call_assignments",
+      "path": "/users/{user_id}/call_assignments",
+      "resource": "UserCallAssignmentCollection",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users_by_user_id_invites",
+      "path": "/users/{user_id}/invites",
+      "resource": "UserInviteCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users_by_user_id_memberships",
+      "path": "/users/{user_id}/memberships",
+      "resource": "UserMembershipCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users_by_user_id_memberships_by_org_id",
+      "path": "/users/{user_id}/memberships/{org_id}",
+      "resource": "UserMembershipItem",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users_by_user_id_outgoing_calls",
+      "path": "/users/{user_id}/outgoing_calls",
+      "resource": "UserCallCollection",
+      "section": "call"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users_by_user_id_profiles",
+      "path": "/users/{user_id}/profiles",
+      "resource": "UserProfileCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "GET",
+      "operation_id": "get_users_by_user_id_recommended_organizations",
+      "path": "/users/{user_id}/recommended_organizations",
+      "resource": "UserRecommendedOrganizationCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id",
+      "path": "/orgs/{org_id}",
+      "resource": "OrgItem",
+      "section": "organizations"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_actions_by_action_id",
+      "path": "/orgs/{org_id}/actions/{action_id}",
+      "resource": "ActionItem",
+      "section": "campaign"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_activities_by_activity_id",
+      "path": "/orgs/{org_id}/activities/{activity_id}",
+      "resource": "ActivityItem",
+      "section": "campaign"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_addresses_by_addr_id",
+      "path": "/orgs/{org_id}/addresses/{addr_id}",
+      "resource": "AddressItem",
+      "section": "canvass"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_assigned_routes_by_route_id",
+      "path": "/orgs/{org_id}/assigned_routes/{route_id}",
+      "resource": "AssignedRouteItem",
+      "section": "canvass"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_call_assignments_by_assignment_id",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}",
+      "resource": "CallAssignmentItem",
+      "section": "call"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_calls_by_call_id",
+      "path": "/orgs/{org_id}/calls/{call_id}",
+      "resource": "CallItem",
+      "section": "call"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_campaigns_by_campaign_id",
+      "path": "/orgs/{org_id}/campaigns/{campaign_id}",
+      "resource": "CampaignItem",
+      "section": "campaign"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_canvass_assignments_by_assignment_id",
+      "path": "/orgs/{org_id}/canvass_assignments/{assignment_id}",
+      "resource": "CanvassAssignmentItem",
+      "section": "canvass"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_canvass_routes_by_route_id",
+      "path": "/orgs/{org_id}/canvass_routes/{route_id}",
+      "resource": "CanvassRouteItem",
+      "section": "canvass"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_group_categories_by_cat_id",
+      "path": "/orgs/{org_id}/group_categories/{cat_id}",
+      "resource": "PersonGroupCategoryItem",
+      "section": "people"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_groups_by_group_id",
+      "path": "/orgs/{org_id}/groups/{group_id}",
+      "resource": "PersonGroupItem",
+      "section": "people"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_groups_by_group_id_members_by_person_id",
+      "path": "/orgs/{org_id}/groups/{group_id}/members/{person_id}",
+      "resource": "PersonGroupMemberItem",
+      "section": "people"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_households_by_household_id",
+      "path": "/orgs/{org_id}/households/{household_id}",
+      "resource": "HouseholdItem",
+      "section": "canvass"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_join_forms_by_form_id",
+      "path": "/orgs/{org_id}/join_forms/{form_id}",
+      "resource": "JoinFormItem",
+      "section": "organizations"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_join_submissions_by_sub_id",
+      "path": "/orgs/{org_id}/join_submissions/{sub_id}",
+      "resource": "JoinSubmissionItem",
+      "section": "organizations"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_locations_by_loc_id",
+      "path": "/orgs/{org_id}/locations/{loc_id}",
+      "resource": "LocationItem",
+      "section": "maps"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_locations_tags_by_tag_id",
+      "path": "/orgs/{org_id}/locations/tags/{tag_id}",
+      "resource": "LocationTagItem",
+      "section": "maps"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_people_by_person_id",
+      "path": "/orgs/{org_id}/people/{person_id}",
+      "resource": "PersonItem",
+      "section": "people"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_people_fields_by_field_id",
+      "path": "/orgs/{org_id}/people/fields/{field_id}",
+      "resource": "PersonFieldItem",
+      "section": "people"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_people_queries_by_query_id",
+      "path": "/orgs/{org_id}/people/queries/{query_id}",
+      "resource": "PersonQueryItem",
+      "section": "search"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_people_tags_by_tag_id",
+      "path": "/orgs/{org_id}/people/tags/{tag_id}",
+      "resource": "PersonTagItem",
+      "section": "people"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_people_views_by_view_id",
+      "path": "/orgs/{org_id}/people/views/{view_id}",
+      "resource": "PersonViewItem",
+      "section": "views"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_people_views_by_view_id_columns_by_col_id",
+      "path": "/orgs/{org_id}/people/views/{view_id}/columns/{col_id}",
+      "resource": "PersonViewColumnItem",
+      "section": "views"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_survey_submissions_by_sub_id",
+      "path": "/orgs/{org_id}/survey_submissions/{sub_id}",
+      "resource": "SurveySubmissionItem",
+      "section": "survey"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_surveys_by_survey_id",
+      "path": "/orgs/{org_id}/surveys/{survey_id}",
+      "resource": "SurveyItem",
+      "section": "survey"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_surveys_by_survey_id_element_order",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/element_order",
+      "resource": "SurveyElementOrderItem",
+      "section": "survey"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_surveys_by_survey_id_elements_by_elem_id",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements/{elem_id}",
+      "resource": "SurveySurveyElementItem",
+      "section": "survey"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_surveys_by_survey_id_elements_by_elem_id_option_order",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements/{elem_id}/option_order",
+      "resource": "SurveySurveyElementOptionOrderItem",
+      "section": "survey"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_orgs_by_org_id_surveys_by_survey_id_elements_by_elem_id_options_by_opt_id",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements/{elem_id}/options/{opt_id}",
+      "resource": "SurveySurveyElementOptionItem",
+      "section": "survey"
+    },
+    {
+      "method": "PATCH",
+      "operation_id": "patch_users_by_user_id",
+      "path": "/users/{user_id}",
+      "resource": "UserItem",
+      "section": "users"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs",
+      "path": "/orgs",
+      "resource": "OrgCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_actions",
+      "path": "/orgs/{org_id}/actions",
+      "resource": "ActionCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_actions_by_action_id_reminders",
+      "path": "/orgs/{org_id}/actions/{action_id}/reminders",
+      "resource": "ActionReminderCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_activities",
+      "path": "/orgs/{org_id}/activities",
+      "resource": "ActivityCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_addresses",
+      "path": "/orgs/{org_id}/addresses",
+      "resource": "AddressCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_addresses_by_addr_id_households",
+      "path": "/orgs/{org_id}/addresses/{addr_id}/households",
+      "resource": "AddressHouseholdCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_assigned_routes",
+      "path": "/orgs/{org_id}/assigned_routes",
+      "resource": "AssignedRouteCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_assigned_routes_by_route_id_household_visits",
+      "path": "/orgs/{org_id}/assigned_routes/{route_id}/household_visits",
+      "resource": "AssignedRouteHouseholdVisitCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_call_assignments",
+      "path": "/orgs/{org_id}/call_assignments",
+      "resource": "CallAssignmentCollection",
+      "section": "call"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_call_assignments_by_assignment_id_calls",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/calls",
+      "resource": "CallAssignmentCallCollection",
+      "section": "call"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_call_assignments_by_assignment_id_queue_head",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/queue/head",
+      "resource": "CallAssignmentUserQueueHead",
+      "section": "call"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_campaigns",
+      "path": "/orgs/{org_id}/campaigns",
+      "resource": "CampaignCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_campaigns_by_campaign_id_actions",
+      "path": "/orgs/{org_id}/campaigns/{campaign_id}/actions",
+      "resource": "CampaignActionCollection",
+      "section": "campaign"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_canvass_assignments",
+      "path": "/orgs/{org_id}/canvass_assignments",
+      "resource": "CanvassAssignmentCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_canvass_routes",
+      "path": "/orgs/{org_id}/canvass_routes",
+      "resource": "CanvassRouteCollection",
+      "section": "canvass"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_group_categories",
+      "path": "/orgs/{org_id}/group_categories",
+      "resource": "PersonGroupCategoryCollection",
+      "section": "people"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_groups",
+      "path": "/orgs/{org_id}/groups",
+      "resource": "PersonGroupCollection",
+      "section": "people"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_imports",
+      "path": "/orgs/{org_id}/imports",
+      "resource": "PersonImportCollection",
+      "section": "people"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_invites",
+      "path": "/orgs/{org_id}/invites",
+      "resource": "InviteCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_join_forms",
+      "path": "/orgs/{org_id}/join_forms",
+      "resource": "JoinFormCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_join_forms_by_form_id_submissions",
+      "path": "/orgs/{org_id}/join_forms/{form_id}/submissions",
+      "resource": "JoinFormSubmissionCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_join_requests",
+      "path": "/orgs/{org_id}/join_requests",
+      "resource": "JoinRequestCollection",
+      "section": "organizations"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_locations",
+      "path": "/orgs/{org_id}/locations",
+      "resource": "LocationCollection",
+      "section": "maps"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_locations_tags",
+      "path": "/orgs/{org_id}/locations/tags",
+      "resource": "LocationTagCollection",
+      "section": "maps"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_merges",
+      "path": "/orgs/{org_id}/merges",
+      "resource": "MergeCollection",
+      "section": "people"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_people",
+      "path": "/orgs/{org_id}/people",
+      "resource": "PersonCollection",
+      "section": "people"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_people_by_person_id_notes",
+      "path": "/orgs/{org_id}/people/{person_id}/notes",
+      "resource": "PersonNoteCollection",
+      "section": "people"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_people_fields",
+      "path": "/orgs/{org_id}/people/fields",
+      "resource": "PersonFieldCollection",
+      "section": "people"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_people_queries",
+      "path": "/orgs/{org_id}/people/queries",
+      "resource": "PersonQueryCollection",
+      "section": "search"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_people_tags",
+      "path": "/orgs/{org_id}/people/tags",
+      "resource": "PersonTagCollection",
+      "section": "people"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_people_views",
+      "path": "/orgs/{org_id}/people/views",
+      "resource": "PersonViewCollection",
+      "section": "views"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_people_views_by_view_id_columns",
+      "path": "/orgs/{org_id}/people/views/{view_id}/columns",
+      "resource": "PersonViewColumnCollection",
+      "section": "views"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_search_by_data_type",
+      "path": "/orgs/{org_id}/search/{data_type}",
+      "resource": "SearchItem",
+      "section": "search"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_surveys",
+      "path": "/orgs/{org_id}/surveys",
+      "resource": "SurveyCollection",
+      "section": "survey"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_surveys_by_survey_id_elements",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements",
+      "resource": "SurveySurveyElementCollection",
+      "section": "survey"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_surveys_by_survey_id_elements_by_elem_id_options",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/elements/{elem_id}/options",
+      "resource": "SurveySurveyElementOptionCollection",
+      "section": "survey"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_orgs_by_org_id_surveys_by_survey_id_submissions",
+      "path": "/orgs/{org_id}/surveys/{survey_id}/submissions",
+      "resource": "SurveySurveySubmissionCollection",
+      "section": "survey"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_password_reset_tokens",
+      "path": "/password_reset_tokens",
+      "resource": "PasswordTokenCollection",
+      "section": "users"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_search_by_data_type",
+      "path": "/search/{data_type}",
+      "resource": "GlobalSearchItem",
+      "section": "search"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_users",
+      "path": "/users",
+      "resource": "UserCollection",
+      "section": "users"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_users_by_user_id_password",
+      "path": "/users/{user_id}/password",
+      "resource": "UserPasswordItem",
+      "section": "users"
+    },
+    {
+      "method": "POST",
+      "operation_id": "post_users_by_user_id_verification_codes",
+      "path": "/users/{user_id}/verification_codes",
+      "resource": "UserVerificationCodeCollection",
+      "section": "users"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_actions_by_action_id_participants_by_person_id",
+      "path": "/orgs/{org_id}/actions/{action_id}/participants/{person_id}",
+      "resource": "ActionParticipantItem",
+      "section": "campaign"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_actions_by_action_id_responses_by_person_id",
+      "path": "/orgs/{org_id}/actions/{action_id}/responses/{person_id}",
+      "resource": "ActionResponseItem",
+      "section": "campaign"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_addresses_by_addr_id_tags_by_tag_id",
+      "path": "/orgs/{org_id}/addresses/{addr_id}/tags/{tag_id}",
+      "resource": "AddressLocationTagItem",
+      "section": "canvass"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_call_assignments_by_assignment_id_callers_by_caller_id",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/callers/{caller_id}",
+      "resource": "CallAssignmentCallerItem",
+      "section": "call"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_call_assignments_by_assignment_id_callers_by_caller_id_excluded_tags_by_tag_id",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/callers/{caller_id}/excluded_tags/{tag_id}",
+      "resource": "CallAssignmentCallerItemExclTagItem",
+      "section": "call"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_call_assignments_by_assignment_id_callers_by_caller_id_prioritized_tags_by_tag_id",
+      "path": "/orgs/{org_id}/call_assignments/{assignment_id}/callers/{caller_id}/prioritized_tags/{tag_id}",
+      "resource": "CallAssignmentCallerItemPrioTagItem",
+      "section": "call"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_canvass_assignments_by_assignment_id_routes_by_route_id",
+      "path": "/orgs/{org_id}/canvass_assignments/{assignment_id}/routes/{route_id}",
+      "resource": "CanvassAssignmentCanvassRouteItem",
+      "section": "canvass"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_canvass_routes_by_route_id_addresses_by_addr_id",
+      "path": "/orgs/{org_id}/canvass_routes/{route_id}/addresses/{addr_id}",
+      "resource": "CanvassRouteAddressItem",
+      "section": "canvass"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_groups_by_group_id_members_by_person_id",
+      "path": "/orgs/{org_id}/groups/{group_id}/members/{person_id}",
+      "resource": "PersonGroupMemberItem",
+      "section": "people"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_locations_by_loc_id_tags_by_tag_id",
+      "path": "/orgs/{org_id}/locations/{loc_id}/tags/{tag_id}",
+      "resource": "LocationLocationTagItem",
+      "section": "maps"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_officials_by_person_id",
+      "path": "/orgs/{org_id}/officials/{person_id}",
+      "resource": "OfficialItem",
+      "section": "organizations"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_people_by_person_id_fields_by_field_id",
+      "path": "/orgs/{org_id}/people/{person_id}/fields/{field_id}",
+      "resource": "PersonFieldValueItem",
+      "section": "people"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_people_by_person_id_tags_by_tag_id",
+      "path": "/orgs/{org_id}/people/{person_id}/tags/{tag_id}",
+      "resource": "PersonPersonTagItem",
+      "section": "people"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_orgs_by_org_id_people_views_by_view_id_rows_by_person_id",
+      "path": "/orgs/{org_id}/people/views/{view_id}/rows/{person_id}",
+      "resource": "PersonViewRowItem",
+      "section": "views"
+    },
+    {
+      "method": "PUT",
+      "operation_id": "put_users_by_user_id_verification_codes_by_code",
+      "path": "/users/{user_id}/verification_codes/{code}",
+      "resource": "UserVerificationCodeItem",
+      "section": "users"
+    }
+  ],
+  "source": "https://raw.githubusercontent.com/zetkin/developer.zetkin.org/d013cb993187fb4e5a116b3275053602fd01ae9f/_data/resources.yml",
+  "source_commit": "d013cb993187fb4e5a116b3275053602fd01ae9f"
+}
